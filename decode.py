@@ -1,3 +1,6 @@
+from dicktionary import MorseCode
+
+
 def decode_from_morse(code: str) -> str:
 	global MorseCode
 	buffer = ""
